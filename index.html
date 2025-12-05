@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syaflira Naura Hafilah | My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container"> 
+            <div class="container header-content">
+                <h1 class="logo">My Portfolio</h1>
+                <nav id="navbar-desktop">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <button class="menu-toggle" aria-label="Toggle navigation">Menu</button>
+            </div>
+        </div>
+    </header>
+
+    <div id="navbar-mobile-overlay">
+        <button class="close-menu">&times;</button>
+        <nav id="navbar-mobile">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <main>
+        <section id="home" class="hero-section full-height">
+            
+            <div class="container hero-layout">
+                <div class="hero-text">
+                    <p class="greeting">Hey, I'm Syaflira Naura</p>
+                    <h2 class="title">Mahasiswa UPH | Beauty Enthusiast</h2>
+                    <p class="subtitle">Passionate about combining aesthetics with UI/UX design</p>
+                    
+                    <a href="#contact" class="btn btn-primary small-box-btn">Contact Me</a>
+                </div>
+                
+                <div class="profile-image-container">
+                    <img src="image/image1.jpeg" alt="Profile Picture of Syaflira Naura" class="profile-image">
+                </div>
+            </div>
+        </section>
+
+        ---
+
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-card">
+                    <p>I'm Syaflira Naura Hafilah, a UPH student who is passionate about combining aesthetics and functionality through **UI/UX design**. As a beauty enthusiast, I believe that great design should be both visually appealing and user-friendly.</p>
+                    <p class="instagram">
+                        <a href="https://www.instagram.com/syafliranauraa" target="_blank">@syafliranauraa</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        ---
+
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Beauty App Redesign</h3>
+                        <p>A complete UI/UX redesign of a beauty e-commerce application.</p>
+                        <a href="#" class="btn btn-secondary view-btn-small">View</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Skincare Tracker</h3>
+                        <p>Mobile app design for tracking daily skincare routines.</p>
+                        <a href="#" class="btn btn-secondary view-btn-small">View</a>
+                    </div>
+                    <div class="project-card">
+                        <h3>Makeup Platform</h3>
+                        <p>Web platform design for sharing makeup tutorials.</p>
+                        <a href="#" class="btn btn-secondary view-btn-small">View</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        ---
+
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Contact Me</h2>
+                <div class="contact-card">
+                    <form class="contact-form">
+                        <input type="text" name="name" placeholder="Name" required>
+                        <input type="email" name="email" placeholder="Email" required>
+                        <input type="text" name="subject" placeholder="Subject" required>
+                        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                        
+                        <button type="submit" class="btn btn-primary send-btn-small">Send</button>
+                    </form>
+                    <p class="copyright-text">© 2025 Syaflira Naura Hafilah</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
